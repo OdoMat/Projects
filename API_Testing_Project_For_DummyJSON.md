@@ -256,11 +256,11 @@ JavaScript Tests:
 
 Below you can find the execution report that was generated through the Postman collection runner. <br>
 
-**Inserati aici o poza cu raportul de executie din Postman**<br>
+![execution runner](https://github.com/user-attachments/assets/e617581d-81c4-400c-9436-7b59315563ea)<br>
 
 The collection was also run through newman directly from the terminal, and the results can be found below:<br>
 
-**Inserati aici o poza cu raportul de executie din Newman**<br>
+![newman](https://github.com/user-attachments/assets/15945cd4-5bbf-4ffb-a3cc-5671f80b2d8c)<br>
 
 <h2>Defects found</h2>
 
