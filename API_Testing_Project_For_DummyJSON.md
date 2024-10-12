@@ -207,7 +207,7 @@ JavaScript Tests:
 
 HTTP method for request: PATCH https://dummyjson.com/products/1<br>
 Request description: This request will attempt to partially update the product with ID 1 with invalid data.<br>
-Test types / techniques used: Functional Testing, Performance Testing, Regression Testing / Negative Testing, Boundary Value Analysis<br>
+Test types / techniques used: Functional Testing, Performance Testing / Negative Testing, Boundary Value Analysis<br>
 Response status code: 400 BAD REQUEST<br>
 
 Below you can find a picture of the API request from Postman:<br>
@@ -217,6 +217,38 @@ Below you can find a picture of the API request from Postman:<br>
 JavaScript Tests:
 
 ![partially invalid tests](https://github.com/user-attachments/assets/335e5b69-d6d7-4597-99a0-788f8d8fa5f8)<br>
+
+
+<li>Delete Product by ID</li>
+
+HTTP method for request: DELETE https://dummyjson.com/products/1
+Request description: This request will detele the product with ID 1.<br>
+Test types / techniques used: Functional Testing, Performance Testing / Positive Testing<br>
+Response status code: 200 OK<br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+![delete](https://github.com/user-attachments/assets/5e46e9c4-6d84-49b6-877c-ffff63300cb1)<br>
+
+JavaScript Tests:
+
+![delete tests](https://github.com/user-attachments/assets/c4468e84-fa3b-4b03-8a51-48d6c5c0e31e)
+<br>
+
+<li>Delete Product by Invalid ID</li>
+
+HTTP method for request: DELETE https://dummyjson.com/products/975567
+Request description: This request will attempt to detele the product with invalid ID 875567.<br>
+Test types / techniques used: Functional Testing, Performance Testing / Negative Testing<br>
+Response status code: 404 NOT FOUND<br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+![delete invalid](https://github.com/user-attachments/assets/1aeb499b-f048-4b18-b040-1aec8bac0eee)<br>
+
+JavaScript Tests:
+
+![delete invalid tests](https://github.com/user-attachments/assets/d9265402-42bc-414e-aeb3-27d280526180)<br>
 
 </ol>
 
