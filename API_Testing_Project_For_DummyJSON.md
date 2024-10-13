@@ -271,5 +271,6 @@ The following issues were identified while running the postman tests:<br>
 
 <h2>Conclusions</h2>
 
-**Inserati aici concluziile pe care le-ati obtinut in urma executarii testelor  si introduceti informatii cum ar fi cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc**
+In this project, I tested the DummyJSON application`s API using postman to manage API requests and define tests. For running the execution report, I utilized both the Collection Runner directly from Postman and Newman.
+I executed
 
