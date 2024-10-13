@@ -272,5 +272,14 @@ The following issues were identified while running the postman tests:<br>
 <h2>Conclusions</h2>
 
 In this project, I tested the DummyJSON application`s API using postman to manage API requests and define tests. For running the execution report, I utilized both the Collection Runner directly from Postman and Newman.
-I executed
+I executed 15 HTTP requests and 65 tests, of which 56 tests ran succesfully while 9 failed. Upon analyzing the results, I identified 5 bugs, including:
+          - The request for a non-existent product category returns a status code of 200 instead 404.
+          - Creating a new product with invalid data is permited.
+          - The error message is not returned.
+          - A product can be updated without some of the required fields such as price, category etc.
+          - A product can be partially updated with invalid data.
+These bugs highlight fundamental issues with validation and error handling in the API.
+The lack of  proper validation can lead to unpredictable application behavior, allowing inconsistent or incomplete data in the database. Aditionally, incorrect status code response can mislead users.
+In conclusion, launching the application without addressing these bugs could significantly impact functionality and user trust.
+
 
