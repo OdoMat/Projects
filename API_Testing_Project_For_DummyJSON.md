@@ -159,7 +159,7 @@ JavaScript Tests:
 
 HTTP method for request: PUT https://dummyjson.com/products/1<br>
 Request description: This request will update the product with ID 1.<br>
-Test types / techniques used: Functional Testing, Performance Testing, Regression Testing / Positive Testing, Negative Testing, Boundary Value Analysis<br>
+Test types / techniques used: Functional Testing, Performance Testing, Regression Testing / Positive Testing, Boundary Value Analysis<br>
 Response status code: 200 OK<br>
 
 Below you can find a picture of the API request from Postman:<br>
