@@ -248,7 +248,7 @@ Below you can find a picture of the API request from Postman:<br>
 
 JavaScript Tests:
 
-![delete invalid tests](https://github.com/user-attachments/assets/d9265402-42bc-414e-aeb3-27d280526180)<br>
+![delete unexisting](https://github.com/user-attachments/assets/1ba2e854-4f29-4bfd-b5d8-9896a3ea38c9)<br>
 
 </ol>
 
