@@ -1,20 +1,21 @@
-<h1>Testing Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
+<h1>GURU99 BANK</h1>
 
 The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
 
-Application under test: **Inserati aici numele aplicatiei pe care o testati**
+Application under test: **Guru99 Bank**
 
 Tools used: Jira, Zephyr Squad.
 
 <h2>Functional specifications:</h2>
 
-The below story **(daca aveti mai multe scrieti stories**) was created in Jira and describes the functional specifications of the "**nume_modul**" module, for which the final project is performed upon.
+The below stories was created in Jira and describes the functional specifications of the "**Guru99 Bank Manager Role**" module, for which the final project is performed upon.
 
-**inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier**
+**[Stories.pdf](https://github.com/user-attachments/files/17367935/Stories.pdf)**
 
 Here you can find the release that was created for this project:
 
-**(inserati aici o poza cu release-ul pe care l-ati creat in jira. Atentie, release-ul nu va contine si teste, ci doar epic-uri, story-uri, task-uri, subtaskuri si bug-uri)**
+**![release](https://github.com/user-attachments/assets/0be4e712-76ac-4b4f-b273-b9f742609768)**
+
 
 <h2>Testing process</h2>
 
@@ -24,7 +25,9 @@ The test process was performed based on the standard test process as described b
 
 The Test Plan is designed to describe all details of testing for all the modules from the JPetStore Demo application.
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here **(inserati link catre documentul cu planul de testare)**
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here:  
+**[Guru99 Test Plan.pdf](https://github.com/user-attachments/files/17368010/Guru99.Test.Plan.pdf)**
+
 
 <h4>1.1.1. Roles asigned to the project and persons allocated</h4>
 
