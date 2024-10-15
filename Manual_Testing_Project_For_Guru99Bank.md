@@ -8,7 +8,7 @@ Tools used: Jira, Zephyr Squad.
 
 <h2>Functional specifications:</h2>
 
-The below stories was created in Jira and describes the functional specifications of the "**Guru99 Bank Manager Role**" module, for which the final project is performed upon.
+The below stories was created in Jira and describes the functional specifications of the "**Guru99 Bank Manager Role**" module, for which the final project is performed upon.  
 
 **[Stories.pdf](https://github.com/user-attachments/files/17367935/Stories.pdf)**
 
@@ -31,7 +31,6 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h4>1.1.1. Roles asigned to the project and persons allocated</h4>
 
-**(numele persoanelor pot sa fie fictive, doar sa treceti numele vostru ca si tester)**
 <ul>
   <li>Project manager: Andrew Garfield</li> 
   <li>Product owner: John Smith</li>
@@ -65,21 +64,43 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h5> Tests in scope: </h5>
 
-**(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+**- New Customer Module - Make sure that a manager can succesfully add a new customer.**  
+**- Edit Customer Module - Make sure that a manager can successfully edit details like address, email, telephone of a customer.**    
+**- Delete Customer Module - Make sure a manager can successfully delete a customer.**    
+**- New Account Module-- Make sure a manager can add a new account to an existing customer.**    
+**- Edit Account Module - Make sure a manager can add and edit account details for an existing account.**    
+**- Delete Account Module - Makee sure a manager can delete an account for an existing customer.**    
+**- Deposit Module - Make sure a manager can deposit money into any account.**    
+**- Withdraw Module - Make sure a manager can withdraw money from any account.**    
+**- Fund Transfer Module - Make sure a manager can transfer funds from any source bank account to destination account.**    
+**- Balance Enquiry Module - Make sure a manager can view balance of all the customers who come under his supervision.**    
 
 <h5>Tests not in scope: </h5>
 
-**(descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+**-	No QA support for mobile applications developed. Only web applications will be tested.**  
+**-	Automation testing is beyond scope.**  
+**-	Non-functional testing like performance (stress testing, load testing, volume testing, scalability testing, spike testing) and security is beyond the scope of this project.**  
+**-	These futures are not to be tested: User Interfaces, Hardware Interfaces, Software Interfaces, Comunications Interface, Database Logical, Website Security and Performance.**  
 
 <h4>1.1.5 Risks detected</h4>
 
 <h5>Project risks:</h5>
 
-**(enumerati aici toate riscurile de proiect pe care le-ati identificat pentru proiectul vostru)**
+**-	The team does not have the proper knowledge or experience in order to guarantee the desired level of quality for the application.**  
+**-	Limited availability of key team members could delay the project.**  
+**-	Not enough time has been allocated in order to properly test and cover all the functionalities in scope.**  
+**-	Non-Functional testing such as sterss testing, load testing,scalability testing, spike testing etc, are beyond the project scope, which might lead to unidentified issues in these areas.**  
+
 
 <h5> Product risks: </h5>
 
-**(enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)**
+**-	All the data that is going to be used will be test data, which will not give us an experience of the application close enough to the ones that the user will experience.**  
+**-	Potential defects in functionalities such as fund transfers, balance enquiries and cusmomer management, might lead to incorrect transactions or data loss.**  
+**-	Many users may not have adequate computer knowledge, leading to usability issues.**   
+**-	The software is only compatible with Chrome version 27 and above, this could cause issues.**    
+**-	The system might have security vulnerabilities, especialy with functionalities like fund transfer and password management.**  
+**-	The banking software must comply with financial regulations. Any non-compliance could lead to legal issues.**
+
 
 <h4>1.1.6 Evaluating entry criteria</h4>
 
@@ -87,33 +108,46 @@ The entry criteria defined in the Test Planning phase have been achieved and the
 
 <h3>1.2 Test Monitoring and Control<h3>
 
-**(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)**
+In this project, the Monitoring and Control Phase was essential because it allowed me to ensure that each feature was functioning as intended and that any issues were quickly identified and resolved. The Monitoring and Control Phase is crucial in software testing as it ensures that the project stays aligned with its goals, quality standards, and timeline. 
+Below you can find the Test Status Report from zephyr.  
+
+![Test Metrics](https://github.com/user-attachments/assets/7624c472-5ead-4d62-9bed-758d15cc590a)  
+
+![Test Executions by test cycle](https://github.com/user-attachments/assets/ddf4362f-5a7f-45b1-9258-b10142bd21f0)  
+
 
 <h3> 1.3 Test Analysis </h3>
-The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
+The testing process will be executed based on the application requirements.</b>. <br><br>
 
 The following test conditions were found: <br>
 
-**(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)**
+![Tests 1](https://github.com/user-attachments/assets/02aed150-52ee-4ee5-a2b9-0823804b6f48)
+![Tests 2](https://github.com/user-attachments/assets/49cda4fa-854b-45d6-bfd8-64436d402bcc)
+![Tests 3](https://github.com/user-attachments/assets/c4733b01-6848-486c-9b73-71d77c730489)
 
 <h3>1.4 Test Design</h3>
 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here **(inserati linkul catre fisierul cu testele, in format pdf, word sau csv)**
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here **[Test Cases.xlsx](https://github.com/user-attachments/files/17378259/Test.Cases.xlsx)**
+
 
 <h3>1.5 Test Implementation</h3>
 
 The following elements are needed to be ready before the test execution phase begins:
 
-**(inserati lista de elemente care sunt evaluate in etapa de implementare)**
+**-We make sure that all the test data is available and reviewed.**  
+**-	We make sure that the setup environment is up and running.**  
+**-	We make sure that we have all the needed access and permissions to all the systems involved in the validation process.**  
+**-	We prioritize the tests based on risks and business priority.**  
 
 <h3>1.6. Test Execution </h3>
 
-Test cases are executed on the created test Cycle summary: **(inserati aici numele cycle-ului pe care l-ati creat)**
+Test cases are executed on the created test Cycle summary: **Version 1**
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: **(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
+Bugs have been created based on the failed tests. The complete bug reports can be found here: **[Bugs.pdf](https://github.com/user-attachments/files/17378313/Bugs.pdf)**  
 
 The following is a summary of the bugs that have been found
-**(inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)**
+![Bugs Severity and Priority](https://github.com/user-attachments/assets/5620e436-51bb-4534-b71a-9fb16d10ec5e)
+
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
