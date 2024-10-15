@@ -145,7 +145,8 @@ Test cases are executed on the created test Cycle summary: **Version 1**
 
 Bugs have been created based on the failed tests. The complete bug reports can be found here: **[Bugs.pdf](https://github.com/user-attachments/files/17378313/Bugs.pdf)**  
 
-The following is a summary of the bugs that have been found
+The following is a summary of the bugs that have been found  
+
 ![Bugs Severity and Priority](https://github.com/user-attachments/assets/5620e436-51bb-4534-b71a-9fb16d10ec5e)
 
 
