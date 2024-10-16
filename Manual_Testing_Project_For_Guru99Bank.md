@@ -155,14 +155,14 @@ Full regression testing is needed on the impacted areas after the bugs are fixed
 <h3> 1.7 Test Completion</h3>
 As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
-The traceability matrix was generated and can be found here: **(inserati aici fie o poza cu matricea de trasabilitate din jira, fie linkul catre fiserul excel exportat din jira cu matricea de trasabilitate. Nu uitati sa faceti filtrare dupa type = story)**
+The traceability matrix was generated and can be found here: [Traceability Matrix.xlsx](https://github.com/user-attachments/files/17400810/Traceability.Matrix.xlsx)
 
 Test execution chart was generated and can be found below. 
 
-**(inserati aici raportul de executie generat din jira din sectiunea de dashboards)**
+![Test Execution by cycle](https://github.com/user-attachments/assets/41d5e03c-5c6e-446c-864a-1b1fd288c717)
 
-The final report shows that a number **(inserati numarul de teste)** tests have failed of a total of **(inserati numarul de teste)**
+The final report shows that a number **16** tests have failed of a total of **24**
 
-A number of **(inserati numarul de bug-uri)** total bugs were found, from which the priority is: **(inserati numarul de bug-uri)** are high and **(inserati numarul de bug-uri)** are medium.
+A number of **13** total bugs were found, from which the priority is: **5** are high and **8** are medium.
 
-**(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)**
+**In this project, I created and executed a total of 24 tests, covering approximately 60% of the functionalities within the project scope. The testing primarily focused on the critical functionalities of the application from the manager's perspective. During the testing process, I identified 12 bugs. These include data validation issues in the fields for email, passwords, dates of birth, and character limitations. Most of the defects are validation problems that could be fixed without significantly impacting the overall functionality. For this reason, I do not believe the identified bugs will affect the product's release to production, but I recommend addressing them before launch, as they could affect user experience and data integrity. The application's limited compatibility with only certain browser versions may negatively impact user experience and its accessibility. I recommend extending support for other browser versions before the release.**
