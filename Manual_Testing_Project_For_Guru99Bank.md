@@ -157,7 +157,7 @@ As the Exit criteria were met and satisfied as mentioned in the appropriate sect
 
 The traceability matrix was generated and can be found here: [Traceability Matrix.xlsx](https://github.com/user-attachments/files/17400810/Traceability.Matrix.xlsx)
 
-Test execution chart was generated and can be found below. 
+Test execution chart was generated and can be found below.  
 
 ![Test Execution by cycle](https://github.com/user-attachments/assets/41d5e03c-5c6e-446c-864a-1b1fd288c717)
 
