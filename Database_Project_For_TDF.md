@@ -2,7 +2,7 @@
 
 The scope of this project is to use all the SQL knowledge gained throught the Software Testing course and apply them in practice.
 
-**Application under test:** Tour de France
+**Application under test:** Tour de France.
 
 **Tools used:** MySQL Workbench
 
